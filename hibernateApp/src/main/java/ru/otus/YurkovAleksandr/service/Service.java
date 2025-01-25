@@ -1,11 +1,22 @@
 package ru.otus.YurkovAleksandr.service;
 
 import lombok.Data;
-
-import ru.otus.YurkovAleksandr.DAO.implement.*;
-import ru.otus.YurkovAleksandr.DAO.intreface.*;
+//import ru.otus.YurkovAleksandr.DAO.impl.BaeyrImpl;
+//import ru.otus.YurkovAleksandr.DAO.impl.BuyImpl;
+//import ru.otus.YurkovAleksandr.DAO.impl.ProductImpl;
+//import ru.otus.YurkovAleksandr.DAO.interfeces.BaeyrDAO;
+//import ru.otus.YurkovAleksandr.DAO.interfeces.BuyDAO;
+//import ru.otus.YurkovAleksandr.DAO.interfeces.ProductDAO;
+import ru.otus.YurkovAleksandr.DAO.implement.BuyDaoImpl;
+import ru.otus.YurkovAleksandr.DAO.implement.BuyerDaoImpl;
+import ru.otus.YurkovAleksandr.DAO.implement.ProductDaoImpl;
+import ru.otus.YurkovAleksandr.DAO.intreface.BuyDao;
+import ru.otus.YurkovAleksandr.DAO.intreface.BuyerDao;
+import ru.otus.YurkovAleksandr.DAO.intreface.ProductDao;
 import ru.otus.YurkovAleksandr.dataSource.DataSource;
-import ru.otus.YurkovAleksandr.entity.*;
+import ru.otus.YurkovAleksandr.entity.Buy;
+import ru.otus.YurkovAleksandr.entity.Buyer;
+import ru.otus.YurkovAleksandr.entity.Product;
 
 import java.io.IOException;
 import java.util.List;

@@ -1,5 +1,6 @@
 package ru.otus.YurkovAleksandr.DAO.intreface;
 
+import ru.otus.YurkovAleksandr.entity.Buyer;
 import ru.otus.YurkovAleksandr.entity.Product;
 
 import java.util.List;

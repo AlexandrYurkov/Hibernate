@@ -8,6 +8,13 @@ import ru.otus.YurkovAleksandr.service.Service;
 
 public class AppTest {
     public static void main(String[] args) {
+//        Buyer newUser = new Buyer();
+//        newUser.setName("newUser");
+//        DataSource ds = new DataSource();
+//        Session s = ds.getSession();
+//        s.beginTransaction();
+//        s.save(newUser);
+//        s.getTransaction().commit();
 
         Service service = new Service();
         try {
